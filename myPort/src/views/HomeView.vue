@@ -14,6 +14,5 @@ export default {
 
 <style scoped>
 .container {
-  position: static;
 }
 </style>
