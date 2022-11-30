@@ -7,7 +7,7 @@ export default {
   },
   data() {
     return {
-      mythContent: [
+      services: [
         { title: "Writing Pieces", link: "/writing-pieces" },
         { title: "Project", link: "/project" },
         { title: "Blog Posts", link: "/blog-posts" },
@@ -20,48 +20,19 @@ export default {
 </script>
 
 <template>
-  <nav class="dropDownMenuWrapper">
-    <RouterLink to="/" class="logo page"><h2>Michael Chen</h2></RouterLink>
-
-    <DropMenu title="Modern Mythology" :items="mythContent" />
-    <!-- <div class="dropwapper">
-      <RouterLink to="/about" class="page mylink writing_pieces"
-        ><h4>Writing Pieces</h4></RouterLink
-      >
-      <RouterLink to="/wlvnlks" class="page mylink project"
-        ><h4>Projects</h4></RouterLink
-      >
-      <RouterLink to="/about" class="page mylink blog_posts"
-        ><h4>Blog Posts</h4></RouterLink
-      >
-      <RouterLink to="/about" class="page mylink classwork_activites"
-        ><h4>Classwork Activites</h4></RouterLink
-      >
-      <RouterLink to="/about" class="page mylink reflection"
-        ><h4>Reflection</h4></RouterLink
-      >
-    </div> -->
+  <nav>
+    <div class="menu-item"><a href="#">Home</a></div>
+    <div class="menu-item"><a href="#">About</a></div>
+    <DropMenu title="Services" :items="services" />
+    <div class="menu-item"><a href="#">Contact</a></div>
   </nav>
 </template>
 
 <style>
-a:link {
-  text-decoration: none;
-}
-.logo {
-  padding: 0.5rem;
-}
-.page {
-  color: var(--dark-white);
-  cursor: pointer;
-}
-.dropDownMenuWrapper {
+nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-top: 1.5rem;
+  justify-content: center;
 }
 nav .menu-item {
   color: #fff;
@@ -71,5 +42,14 @@ nav .menu-item {
   border-bottom: 3px solid transparent;
   display: flex;
   transition: 0.4s;
+}
+nav .menu-item.active,
+nav .menu-item:hover {
+  background-color: #444;
+  border-bottom-color: #ff5858;
+}
+nav .menu-item a {
+  color: inherit;
+  text-decoration: none;
 }
 </style>

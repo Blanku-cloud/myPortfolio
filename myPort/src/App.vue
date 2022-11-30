@@ -11,4 +11,10 @@ import Nav from "./components/NavBar.vue";
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+header {
+  width: 100vw;
+  background-color: #222;
+  padding: 15px;
+}
+</style>
