@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import MyProfile from "../components/MyProfile.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="bg-slate-900">
+    <MyProfile />
   </main>
 </template>
