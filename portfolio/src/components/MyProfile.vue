@@ -28,7 +28,7 @@ import { RouterLink } from "vue-router";
               most exciting part of the day
             </p>
             <div class="mt-5">
-              <router-link to="/About-Me" class="text-white"
+              <router-link to="/About-Me" class="text-white hover:underline"
                 >Read More</router-link
               >
             </div>

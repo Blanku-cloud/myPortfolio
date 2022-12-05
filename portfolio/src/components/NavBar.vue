@@ -28,6 +28,7 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
             <router-link
+              @click="openStore.changeStatementTrue()"
               v-for="item in navigation"
               :key="item.name"
               :to="item.link"
@@ -82,7 +83,9 @@
 import { Disclosure, DisclosureButton } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { RouterLink } from "vue-router";
+import { useOpenStore } from "@/stores/counter";
 
+const openStore = useOpenStore();
 const navigation = [
   { name: "About Me", link: "/About-Me", current: false },
   { name: "Modern Mythology", link: "/Modern-Mythology", current: false },
