@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-[.5fr_2fr] grid-rows-1">
-    <div class="flex flex-col justify-start mt-20 border-r-4 border-gray-800">
+    <div class="flex flex-col mt-20 border-r-4 border-gray-800">
       <div>
         <div>
           <h4>Writing Pieces</h4>
