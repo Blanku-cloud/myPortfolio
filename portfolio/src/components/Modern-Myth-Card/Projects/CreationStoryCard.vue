@@ -1,13 +1,13 @@
 <template>
   <div>
     <div>
-      <video controls>
-        <source
-          src="../../../assets/video/EgyptianCreationMyths(Angelella).mp4"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
+      <iframe
+        src="https://drive.google.com/file/d/1hURyt7RuhnFoN1B3bu7HaPPvXMxWwlZT/preview"
+        width="100%"
+        height="600"
+        allow="autoplay"
+        title="Creation Video"
+      ></iframe>
     </div>
     <div class="flex justify-center my-5">
       <img
