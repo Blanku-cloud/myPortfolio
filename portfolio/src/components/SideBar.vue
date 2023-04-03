@@ -24,6 +24,11 @@
               - Creation Story
             </h5></RouterLink
           >
+          <RouterLink to="/Modern-Mythology/Projects/Bible-Story" class="">
+            <h5 class="ml-5 my-3 w-fit hover:underline">
+              - Good Samaritan
+            </h5></RouterLink
+          >
           <RouterLink to="/Modern-Mythology/Projects/Norse-Project" class="">
             <h5 class="ml-5 my-3 w-fit hover:underline">
               - Norse Project
@@ -53,6 +58,11 @@
           <RouterLink to="/Modern-Mythology/Reflections/Reflection-2" class="">
             <h5 class="ml-5 my-3 w-fit hover:underline">
               - Reflection #2
+            </h5></RouterLink
+          >
+          <RouterLink to="/Modern-Mythology/Reflections/Reflection-3" class="">
+            <h5 class="ml-5 my-3 w-fit hover:underline">
+              - Reflection #3
             </h5></RouterLink
           >
         </div>

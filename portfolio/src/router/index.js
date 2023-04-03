@@ -27,6 +27,15 @@ const router = createRouter({
         import("../components/Modern-Myth-Card/Random/NorseFeedback.vue"),
     },
     {
+      path: "/Random/Jigsaw-Poster",
+      name: "jigsaw-project",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import("../components/Modern-Myth-Card/Random/JigsawPoster.vue"),
+    },
+    {
       path: "/Modern-Mythology",
       name: "modern-mythology",
       // route level code-splitting
@@ -86,6 +95,17 @@ const router = createRouter({
             ),
         },
         {
+          path: "/Modern-Mythology/Projects/Bible-Story",
+          name: "bible-story",
+          // route level code-splitting
+          // this generates a separate chunk (About.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(
+              "../components/Modern-Myth-Card/Projects/BibleStoryCard.vue"
+            ),
+        },
+        {
           path: "/Modern-Mythology/Projects/Norse-Project",
           name: "norse-project",
           // route level code-splitting
@@ -116,6 +136,17 @@ const router = createRouter({
           component: () =>
             import(
               "../components/Modern-Myth-Card/Reflections/Reflection2Card.vue"
+            ),
+        },
+        {
+          path: "/Modern-Mythology/Reflections/Reflection-3",
+          name: "reflections-reflection3",
+          // route level code-splitting
+          // this generates a separate chunk (About.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(
+              "../components/Modern-Myth-Card/Reflections/Reflection3Card.vue"
             ),
         },
       ],
