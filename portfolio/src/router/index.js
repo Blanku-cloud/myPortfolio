@@ -35,6 +35,7 @@ const router = createRouter({
       component: () =>
         import("../components/Modern-Myth-Card/Random/JigsawPoster.vue"),
     },
+
     {
       path: "/Modern-Mythology",
       name: "modern-mythology",
@@ -52,6 +53,17 @@ const router = createRouter({
           component: () =>
             import(
               "../components/Modern-Myth-Card/Writing-Pieces/FairytaleCard.vue"
+            ),
+        },
+        {
+          path: "/Modern-Mythology/Writing-Pieces/IVT-Essay",
+          name: "jigsaw-project",
+          // route level code-splitting
+          // this generates a separate chunk (About.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(
+              "../components/Modern-Myth-Card/Writing-Pieces/IVTEssay.vue"
             ),
         },
         {
@@ -147,6 +159,17 @@ const router = createRouter({
           component: () =>
             import(
               "../components/Modern-Myth-Card/Reflections/Reflection3Card.vue"
+            ),
+        },
+        {
+          path: "/Modern-Mythology/Reflections/Reflection-4",
+          name: "reflections-reflection4",
+          // route level code-splitting
+          // this generates a separate chunk (About.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () =>
+            import(
+              "../components/Modern-Myth-Card/Reflections/Reflection4Card.vue"
             ),
         },
       ],

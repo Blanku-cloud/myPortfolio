@@ -16,6 +16,11 @@
               - The Book of the Dead
             </h5></RouterLink
           >
+          <RouterLink to="/Modern-Mythology/Writing-Pieces/IVT-Essay">
+            <h5 class="ml-5 my-3 w-fit hover:underline">
+              - IVT-Essay
+            </h5></RouterLink
+          >
         </div>
         <div>
           <h4>Projects</h4>
@@ -63,6 +68,11 @@
           <RouterLink to="/Modern-Mythology/Reflections/Reflection-3" class="">
             <h5 class="ml-5 my-3 w-fit hover:underline">
               - Reflection #3
+            </h5></RouterLink
+          >
+          <RouterLink to="/Modern-Mythology/Reflections/Reflection-4" class="">
+            <h5 class="ml-5 my-3 w-fit hover:underline">
+              - Reflection #4
             </h5></RouterLink
           >
         </div>
